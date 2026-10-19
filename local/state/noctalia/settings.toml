@@ -57,7 +57,6 @@ order = [ "leftbar", "overlay" ]
         "battery",
         "control-center"
     ]
-    layer = "overlay"
     margin_ends = 10
     padding = 9
     radius = 17
@@ -343,7 +342,7 @@ enabled = [
 
 [shell]
 clipboard_auto_paste = "off"
-clipboard_history_max_entries = 800
+clipboard_history_max_entries = 3000
 external_ip_enabled = true
 niri_overview_type_to_launch_enabled = true
 password_style = "random"
@@ -429,14 +428,14 @@ polkit_agent = true
 
 [theme]
 builtin = "Ayu"
-community_palette = "Flexoki"
+community_palette = "Mizuki-Akiyama"
 mode = "dark"
 source = "community"
 wallpaper_scheme = "m3-rainbow"
 
     [theme.templates]
     builtin_ids = [ "btop", "cava", "foot", "gtk3", "gtk4", "kitty", "niri", "qt", "umbriel" ]
-    community_ids = [ "ayugram", "telegram", "blender", "zed", "steam", "fastfetch", "obs", "bat", "fzf" ]
+    community_ids = [ "ayugram", "telegram", "zed", "steam", "fastfetch", "obs", "bat", "fzf" ]
 
 [wallpaper]
 directory = "/home/deltacat/Pictures/Wallpapers"
