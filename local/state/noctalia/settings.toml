@@ -313,7 +313,10 @@ offset_y = 44
 border_color = "primary"
 
 [plugin_settings."alexander/screen-toolkit"]
+panel-legacy_placement = "attached"
+panel_placement = "attached"
 result_layer = "overlay"
+result_placement = "attached"
 
 [plugin_settings."kenn/keybind-cheatsheet"]
 cheatsheet_layer = "overlay"
@@ -427,10 +430,10 @@ polkit_agent = true
         variant = "destructive"
 
 [theme]
-builtin = "Ayu"
+builtin = "Tokyo-Night"
 community_palette = "Mizuki-Akiyama"
 mode = "dark"
-source = "community"
+source = "wallpaper"
 wallpaper_scheme = "m3-rainbow"
 
     [theme.templates]
@@ -441,13 +444,13 @@ wallpaper_scheme = "m3-rainbow"
 directory = "/home/deltacat/Pictures/Wallpapers"
 
     [wallpaper.default]
-    path = "/home/deltacat/Pictures/Wallpapers/wallhaven-2edkyg_3840x2160.png"
+    path = "/home/deltacat/Pictures/Wallpapers/IWM.jpg"
 
     [wallpaper.last]
-    path = "/home/deltacat/Pictures/Wallpapers/wallhaven-2edkyg_3840x2160.png"
+    path = "/home/deltacat/Pictures/Wallpapers/IWM.jpg"
 
     [wallpaper.monitors.eDP-1]
-    path = "/home/deltacat/Pictures/Wallpapers/wallhaven-2edkyg_3840x2160.png"
+    path = "/home/deltacat/Pictures/Wallpapers/IWM.jpg"
 
     [[wallpaper.favorite]]
     path = "/home/deltacat/Pictures/Wallpapers/Bansha-Meow-арт.png"
@@ -478,6 +481,27 @@ directory = "/home/deltacat/Pictures/Wallpapers"
     path = "/home/deltacat/Pictures/Wallpapers/wallhaven-2edkyg_3840x2160.png"
     theme_mode = "dark"
     wallpaper_scheme = "m3-rainbow"
+
+    [[wallpaper.favorite]]
+    community_palette = "Mizuki-Akiyama"
+    palette_source = "community"
+    path = "/home/deltacat/Pictures/Wallpapers/Teto.jpg"
+    theme_mode = "dark"
+
+    [[wallpaper.favorite]]
+    palette_source = "wallpaper"
+    path = "/home/deltacat/Pictures/Wallpapers/IWM.jpg"
+    theme_mode = "dark"
+    wallpaper_scheme = "m3-rainbow"
+
+    [[wallpaper.favorite]]
+    palette_source = "wallpaper"
+    path = "/home/deltacat/Pictures/Wallpapers/The-Tower.jpg"
+    theme_mode = "dark"
+    wallpaper_scheme = "m3-rainbow"
+
+    [[wallpaper.favorite]]
+    path = "/home/deltacat/Pictures/Wallpapers/ign_megumin_dark.png"
 
 [widget.bar]
 show_count = false
